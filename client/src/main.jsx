@@ -8,7 +8,8 @@ import axios from "axios";
 
 import { BrowserRouter } from "react-router-dom";
 
-axios.defaults.baseURL = "http://localhost:3001"
+//axios.defaults.baseURL = "https://lp9ycn-3001.csb.app/"
+axios.defaults.baseURL = "https://tech-nexus.onrender.com"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
